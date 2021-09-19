@@ -1,24 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THA6</title>
 </head>
+
 <body>
+    <style>
+        body {
+            background-color: aqua;
+            color: blueviolet;
+        }
+    </style>
     <h1>Insanity Learner HUNT Form</h1>
     <form action="">
         <label>First Name:</label><br>
         <input type="text" name="FN"><br>
-        
+
         <label>Last Name:</label><br>
         <input type="text" name="LN"><br>
         <label>Select Your Gender</label><br>
         <input type="radio" name="G">Male
         <input type="radio" name="G">FeMale
-        <input type="radio" name="G">Other
-        
+        <input type="radio" name="G">Other <br>
+        <label>Password:</label><br>
+        <input type="password" name="Pass"><br>
+        <label>Confirm Password:</label><br>
+        <input type="password" name="Pass1"><br>
+        <label>EmailID:</label><br>
+        <input type="email" name="EM"><br>
+        <label>Mobile Number:</label><br>
+        <input type="number" name="Mob"><br>
+        <label>Joining Date:</label><br>
+        <input type="date" name="JD"><br>
+        <label>Programms:</label><br>
+        <select name="Prag">
+            <option value="Default">Enter Choice</option>
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+        </select><br><br>
+        <label>Write about Yourself:</label><br>
+        <textarea name="WAY" cols="30" rows="10" placeholder="Please Type IN hrer"></textarea>
+        <br><label>After Reading This Click CheckBox</label>
+        <input type="checkbox" name="Rules and Reg"><br><br>
+        <button type="submit" style="background-color: green;">SUBMIT FORM</button>
+        <label for="">Submit My Form</label>
+        <button type="reset" style="background-color: brown;">Reset FORM</button>
+        <label for="">Reset My Form</label>
     </form>
 </body>
+
 </html>

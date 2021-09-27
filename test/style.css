@@ -1,0 +1,7 @@
+table, th, td ,tr {
+    font-size: 18px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }

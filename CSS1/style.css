@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(https://www.designyourway.net/drb/wp-content/uploads/2017/04/Nature-Wallpaper-Desktop-Background-150-2-1600x900.jpg);
+
+}
+
+/* footer{
+    
+} */
+.ul{
+    position: fixed;
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    top: 91vh;
+    list-style: none;
+    background-color: aquamarine;
+}
+li{
+    padding: 10px;
+    margin: 10px;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    /* background-color: aquamarine; */
+}
+.main{
+    color:rgb(43, 43, 43);
+}
+main.h5{
+    color: aqua;
+}
